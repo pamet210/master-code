@@ -50,16 +50,14 @@ radio.onReceivedString(function (receivedString) {
             } else if (play == 3) {
                 back()
             }
-        }
-        if (receivedString == "rock") {
+        } else if (receivedString == "rock") {
             rockpaperscissors()
             if (play == 3) {
                 go()
             } else if (play == 1) {
                 back()
             }
-        }
-        if (receivedString == "paper") {
+        } else if (receivedString == "paper") {
             rockpaperscissors()
             if (play == 1) {
                 go()
